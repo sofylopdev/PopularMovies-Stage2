@@ -1,0 +1,58 @@
+<resources>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="special_top_margin_small">19dp</dimen>
+    <dimen name="margin_8dp">8dp</dimen>
+
+    <!--Main Activity-->
+    <dimen name="frame_spacing">2dp</dimen>
+    <dimen name="recycler_spacing">1dp</dimen>
+    <dimen name="padding_main">2dp</dimen>
+    <dimen name="error_image_height">200dp</dimen>
+    <dimen name="margin_rating">4dp</dimen>
+    <dimen name="main_rating_background_size">36dp</dimen>
+    <dimen name="main_rating_background_stroke">2dp</dimen>
+    <dimen name="movie_poster_corner_radius">8dp</dimen>
+
+    <!--Spinner-->
+    <!--<dimen name="spinner_height">48dp</dimen>-->
+    <dimen name="spinner_spacing">10dp</dimen>
+    <dimen name="spinner_text_size">16sp</dimen>
+    <dimen name="spinner_width">90dp</dimen>
+
+    <!--Detail Activity-->
+    <dimen name="title_spacing">48dp</dimen>
+    <dimen name="title_corners_radius">10dp</dimen>
+    <dimen name="overview_extra_line_spacing">2sp</dimen>
+    <dimen name="details_text_size">16sp</dimen>
+
+    <dimen name="app_bar_layout_height">256dp</dimen>
+    <dimen name="app_bar_landscape_height">180dp</dimen>
+
+    <dimen name="labels_top_margin">32dp</dimen>
+    <dimen name="special_top_margin_big">35dp</dimen>
+
+    <dimen name="share_button_size">40dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="smaller_fab_margin">8dp</dimen>
+
+    <dimen name="icon_small">18dp</dimen>
+    <dimen name="icon_big">24dp</dimen>
+
+    <dimen name="release_image_top_adjustment">3dp</dimen>
+    <dimen name="release_date_start_margin">5dp</dimen>
+    <dimen name="runtime_v19_top_portrait">13dp</dimen>
+
+    <dimen name="active_dots_size">12dp</dimen>
+    <dimen name="non_active_dots_size">8dp</dimen>
+
+    <!--Card Params-->
+    <dimen name="card_height">300dp</dimen>
+    <dimen name="video_image_height">200dp</dimen>
+    <dimen name="card_elevation">5dp</dimen>
+    <dimen name="card_corner_radius">4dp</dimen>
+
+    <!--Reviews-->
+    <dimen name="reviews_text_size">16sp</dimen>
+
+</resources>

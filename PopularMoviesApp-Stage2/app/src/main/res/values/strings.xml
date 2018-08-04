@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Popular Movies App</string>
+
+    <string name="transition_name" translatable="false">intoDetails</string>
+
+    <!--Spinner name and items (in MainActivity)-->
+    <string name="sort_by" translatable="false">Sort By</string>
+    <string name="popular">Popular</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="favorites">Favorites</string>
+
+    <!--Preferences options-->
+    <string name="popular_pref" translatable="false">popular</string>
+    <string name="top_rated_pref" translatable="false">top_rated</string>
+    <string name="favorites_pref" translatable="false">favorites</string>
+
+    <!--Detail Activity strings-->
+    <string name="movie_rating">%1$.00f </string>
+    <string name="max_rating">/10</string>
+    <string name="runtime_string">%1$d min</string>
+    <string name="runtime_unavailable">Not available</string>
+    <string name="toast_added">\ \was ADDED to your favorite\'\s.</string>
+    <string name="toast_removed">\ \was REMOVED from your favorite\'\s.</string>
+    <string name="overview_label">Synopsis</string>
+    <string name="videos_label">Videos</string>
+    <string name="reviews_label">Reviews</string>
+    <string name="release_date_image_description">Release Date</string>
+    <string name="vote_average_image_description">Vote Average</string>
+    <string name="runtime_image_description">Runtime</string>
+
+    <!--Error messages-->
+    <string name="no_internet_connection">Please connect to the internet.</string>
+    <string name="no_image_available">No image available</string>
+    <string name="error_network_or_json">There was a problem with the request to MovieDb.
+        \nWe apologise for the inconvenience.
+        \nPlease check your internet connection. If you have a good connection,
+        check if there\'\s an update available or report this problem.</string>
+    <string name="no_favorites">Please add movies to your favorites.</string>
+
+</resources>

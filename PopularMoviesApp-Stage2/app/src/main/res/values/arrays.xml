@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_list_titles_array">
+        <item>@string/popular</item>
+        <item>@string/top_rated</item>
+        <item>@string/favorites</item>
+    </string-array>
+
+    <integer-array name="spinner_list_icons_array">
+        <item>@drawable/popular_icon</item>
+        <item>@drawable/leaderboard_icon</item>
+        <item>@drawable/ic_favorite_white_24dp</item>
+    </integer-array>
+</resources>

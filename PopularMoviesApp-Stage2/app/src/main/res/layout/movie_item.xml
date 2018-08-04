@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/frame_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingEnd="@dimen/padding_main"
+    android:paddingRight="@dimen/padding_main">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/movie_poster"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/no_image_available"
+        android:scaleType="centerCrop"
+        android:transitionName="@string/transition_name"
+        app:riv_corner_radius="@dimen/movie_poster_corner_radius" />
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/border"
+        android:scaleType="centerCrop"
+        app:riv_corner_radius="@dimen/card_corner_radius" />
+
+    <TextView
+        android:id="@+id/rating_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end|right"
+        android:layout_margin="@dimen/margin_rating"
+        android:background="@drawable/circle"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/title_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="@dimen/frame_spacing"
+        android:background="@drawable/title_main_background"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+</FrameLayout>

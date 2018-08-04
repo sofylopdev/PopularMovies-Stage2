@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#0D47A1</color>
+    <color name="colorAccent">#FF5252</color>
+
+    <color name="background_top">#66000000</color>
+    <color name="rating_background">#882196F3</color>
+    <color name="spinner_icons_color">#DFF0FE</color>
+    <color name="non_active_dots_color">#bebebe</color>
+</resources>

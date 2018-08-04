@@ -24,19 +24,19 @@ You will build a fully featured application that looks and feels natural on the 
 ## Screenshots
 |Movies List| Spinner Options | Landscape List |
 | --- | --- | --- |
-| ![alt text](https://github.com/sofylopdev/PopularMovies-Part2/blob/master/MovieList.png) | ![alt text](https://github.com/sofylopdev/PopularMovies-Part2/blob/master/DetailSpinner.png) | ![alt text](https://github.com/sofylopdev/PopularMovies-Part2/blob/master/LandscapeList.png) | 
+| ![alt text](https://github.com/sofylopdev/PopularMovies-Stage2/blob/master/MovieList.png) | ![alt text](https://github.com/sofylopdev/PopularMovies-Stage2/blob/master/DetailSpinner.png) | ![alt text](https://github.com/sofylopdev/PopularMovies-Stage2/blob/master/LandscapeList.png) | 
 
 |No Internet| No Movies | Favorites |
 | --- | --- | --- |
-| ![alt text](https://github.com/sofylopdev/PopularMovies-Part2/blob/master/No_Internet.png) | ![alt text](https://github.com/sofylopdev/PopularMovies-Part2/blob/master/No_Movies.png) | ![alt text](https://github.com/sofylopdev/PopularMovies-Part2/blob/master/Favorites.png) | 
+| ![alt text](https://github.com/sofylopdev/PopularMovies-Stage2/blob/master/No_Internet.png) | ![alt text](https://github.com/sofylopdev/PopularMovies-Stage2/blob/master/No_Movies.png) | ![alt text](https://github.com/sofylopdev/PopularMovies-Stage2/blob/master/Favorites.png) | 
 
 |Movie Details top| Movie Details bottom | 
 | --- | --- | 
-| ![alt text](https://github.com/sofylopdev/PopularMovies-Part2/blob/master/MovieDetail1.png) | ![alt text](https://github.com/sofylopdev/PopularMovies-Part2/blob/master/MovieDetail2.png) |
+| ![alt text](https://github.com/sofylopdev/PopularMovies-Stage2/blob/master/MovieDetail1.png) | ![alt text](https://github.com/sofylopdev/PopularMovies-Stage2/blob/master/MovieDetail2.png) |
 
 |Tablet List| Tablet Details | 
 | --- | --- | 
-| ![alt text](https://github.com/sofylopdev/PopularMovies-Part2/blob/master/TabletList.png) | ![alt text](https://github.com/sofylopdev/PopularMovies-Part2/blob/master/TabletDetails.png) |
+| ![alt text](https://github.com/sofylopdev/PopularMovies-Stage2/blob/master/TabletList.png) | ![alt text](https://github.com/sofylopdev/PopularMovies-Stage2/blob/master/TabletDetails.png) |
 
 ## Libraries Used
  - [Picasso](http://square.github.io/picasso/)

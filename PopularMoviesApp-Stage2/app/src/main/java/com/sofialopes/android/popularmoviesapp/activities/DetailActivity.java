@@ -609,7 +609,7 @@ public class DetailActivity extends AppCompatActivity implements VideosAdapter.A
         switch (item.getItemId()) {
             // Respond to the action bar's Up/Home button
             case android.R.id.home:
-                supportFinishAfterTransition();
+                finish();
                 return true;
         }
         return super.onOptionsItemSelected(item);

@@ -171,7 +171,11 @@ public class MainActivity extends AppCompatActivity
 
         if (mSortMoviesPrefsBy.equals(mFavoritesPref)) {
             hideErrorMessage();
-            getSupportLoaderManager().restartLoader(DB_LOADER_ID, null, this);
+            if(mRecyclerView.isLayoutFrozen()){
+                mRecyclerView.setLayoutFrozen(false);
+            }else {
+                getSupportLoaderManager().restartLoader(DB_LOADER_ID, null, this);
+            }
         } else if (ConnectivityReceiver.isNetworkAvailable(this)) {
             hideErrorMessage();
             mIsLoadingInOnResume = true;
@@ -187,6 +191,9 @@ public class MainActivity extends AppCompatActivity
         super.onPause();
         mRcState = mRecyclerView.getLayoutManager()
                 .onSaveInstanceState();
+        if(mSortMoviesPrefsBy.equals(mFavoritesPref)) {
+            mRecyclerView.setLayoutFrozen(true);
+        }
     }
 
     @Override
